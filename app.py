@@ -1377,35 +1377,6 @@ if uploaded_file is not None:
         # PROMPT DEBUGGING
         # ====================================================
 
-        with st.expander(
-            "Show AI Prompt"
-        ):
-
-            suspicious_events_text = (
-                suspicious_df.to_string(
-                    index=False
-                )
-            )
-
-            prompt_preview = (
-                build_ai_prompt(
-                    summary_text,
-                    suspicious_events_text,
-                    audience=audience,
-                    report_style=report_style,
-                    include_mitre=include_mitre,
-                    include_recommendations=include_recommendations,
-                    include_confidence=include_confidence,
-                    threat_score=threat_score,
-                    threat_level=threat_level,
-                )
-            )
-
-            st.code(
-                prompt_preview,
-                language="text",
-            )
-
     except Exception as e:
 
         st.error(

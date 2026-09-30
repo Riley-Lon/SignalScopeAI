@@ -1,0 +1,6 @@
+timestamp,event_id,username,source_ip,destination_ip,action,message
+2026-08-05 08:00:00,5001,admin,10.0.0.30,10.0.0.5,admin_login,Administrator signed in during scheduled maintenance
+2026-08-05 08:15:00,5002,admin,10.0.0.30,10.0.0.5,service_restart,Administrator restarted an approved service
+2026-08-05 08:30:00,5003,admin,10.0.0.30,10.0.0.5,user_management,Administrator updated an approved user account
+2026-08-05 08:45:00,5004,admin,10.0.0.30,10.0.0.5,file_access,Administrator accessed an approved administrative share
+2026-08-05 09:00:00,5005,admin,10.0.0.30,10.0.0.5,admin_logout,Administrator signed out after maintenance

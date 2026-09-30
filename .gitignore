@@ -1,0 +1,36 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.class
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated SignalScope reports
+SignalScope_Test_Report.pdf
+SignalScope_Investigation_Report*.pdf
+SignalScope_Investigation_Report*.txt
+
+# Temporary files
+*.tmp
+*.log

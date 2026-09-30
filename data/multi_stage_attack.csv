@@ -1,0 +1,9 @@
+timestamp,event_id,username,source_ip,destination_ip,action,message
+2026-08-04 14:00:00,4001,alice,203.0.113.25,10.0.0.8,failed_login,Login failed for alice
+2026-08-04 14:01:00,4002,alice,203.0.113.25,10.0.0.8,failed_login,Login failed for alice
+2026-08-04 14:02:00,4003,alice,203.0.113.25,10.0.0.8,failed_login,Login failed for alice
+2026-08-04 14:03:00,4004,alice,203.0.113.25,10.0.0.8,successful_login,User login successful
+2026-08-04 14:06:00,4005,alice,10.0.0.8,10.0.0.8,powershell_execution,PowerShell launched with an encoded command
+2026-08-04 14:07:00,4006,alice,10.0.0.8,10.0.0.8,powershell_execution,PowerShell encoded command detected
+2026-08-04 14:09:00,4007,alice,10.0.0.8,203.0.113.80,network_connection,PowerShell process established outbound network connection
+2026-08-04 14:11:00,4008,alice,10.0.0.8,203.0.113.80,network_connection,Outbound network connection detected

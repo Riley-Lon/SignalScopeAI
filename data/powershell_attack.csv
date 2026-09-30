@@ -1,0 +1,6 @@
+timestamp,event_id,username,source_ip,destination_ip,action,message
+2026-08-03 11:00:00,3001,bob,10.0.0.8,10.0.0.5,powershell_execution,PowerShell launched with an encoded command
+2026-08-03 11:01:00,3002,bob,10.0.0.8,10.0.0.5,powershell_execution,PowerShell encoded command detected
+2026-08-03 11:03:00,3003,bob,10.0.0.8,203.0.113.50,network_connection,PowerShell process established outbound network connection
+2026-08-03 11:05:00,3004,bob,10.0.0.8,10.0.0.5,powershell_execution,PowerShell executed a second encoded command
+2026-08-03 11:07:00,3005,bob,10.0.0.8,203.0.113.50,network_connection,Outbound connection followed PowerShell execution

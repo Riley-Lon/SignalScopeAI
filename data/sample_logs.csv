@@ -1,0 +1,8 @@
+timestamp,event_id,username,source_ip,destination_ip,action,message
+2026-08-01 09:01:00,4625,alice,203.0.113.10,10.0.0.5,failed_login,Failed login attempt
+2026-08-01 09:02:00,4625,alice,203.0.113.10,10.0.0.5,failed_login,Failed login attempt
+2026-08-01 09:03:00,4625,alice,203.0.113.10,10.0.0.5,failed_login,Failed login attempt
+2026-08-01 09:04:00,4624,alice,203.0.113.10,10.0.0.5,successful_login,Successful login after failures
+2026-08-01 09:10:00,4688,bob,10.0.0.8,10.0.0.5,powershell_started,PowerShell started
+2026-08-01 09:12:00,4688,bob,10.0.0.8,10.0.0.5,powershell_started,Encoded command detected
+2026-08-01 09:15:00,5156,charlie,10.0.0.9,10.0.0.5,network_connection,Outbound connection established

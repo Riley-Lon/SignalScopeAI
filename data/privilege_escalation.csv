@@ -1,0 +1,6 @@
+timestamp,event_id,username,source_ip,destination_ip,action,message
+2026-08-05 11:00:00,6001,john,10.0.0.45,10.0.0.5,successful_login,User john logged in successfully
+2026-08-05 11:02:00,6002,john,10.0.0.45,10.0.0.5,privilege_change,User john was added to the Administrators group
+2026-08-05 11:03:00,6003,john,10.0.0.45,10.0.0.5,admin_action,User john performed an administrative action
+2026-08-05 11:05:00,6004,john,10.0.0.45,10.0.0.5,privilege_change,User john granted elevated privileges to the account
+2026-08-05 11:07:00,6005,john,10.0.0.45,10.0.0.5,file_access,User john accessed a restricted administrative resource

@@ -1,0 +1,6 @@
+timestamp,event_id,username,source_ip,destination_ip,action,message
+2026-08-06 08:00:00,7001,admin,10.0.0.30,10.0.0.5,scheduled_task_create,Administrator created approved daily backup task
+2026-08-06 08:05:00,7002,admin,10.0.0.30,10.0.0.5,scheduled_task_run,Approved daily backup task executed
+2026-08-06 08:10:00,7003,admin,10.0.0.30,10.0.0.5,file_access,Backup task accessed approved backup directory
+2026-08-06 08:15:00,7004,admin,10.0.0.30,10.0.0.5,service_check,Administrator verified backup service status
+2026-08-06 08:20:00,7005,admin,10.0.0.30,10.0.0.5,logout,Administrator logged out successfully
